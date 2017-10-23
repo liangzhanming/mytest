@@ -23,6 +23,7 @@ public class Application {
 		SpringApplication springApplication = new SpringApplication(Application.class);
 		/** 设置Banner横幅为关闭 */
 		springApplication.setBannerMode(Mode.OFF);
+		Systom.out.printl("xxxxxxxxxxxx");
 		/** 运行 */
 		springApplication.run(args);
 	}
